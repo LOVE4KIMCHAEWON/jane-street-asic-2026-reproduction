@@ -1,0 +1,95 @@
+{
+  "gds": "puzzle.gds",
+  "gds_structures": 81,
+  "top": "puzzle",
+  "die_nm": [
+    200000,
+    300000
+  ],
+  "top_references": 9875,
+  "top_paths": 7061,
+  "top_boundaries": 1499,
+  "logic_records": 942,
+  "flipflops": 92,
+  "ports": {
+    "I": [
+      83350
+    ],
+    "O[0]": [
+      10973
+    ],
+    "O[1]": [
+      3822
+    ],
+    "O[2]": [
+      11011
+    ],
+    "O[3]": [
+      13312
+    ],
+    "O[4]": [
+      1115
+    ],
+    "O[5]": [
+      11592
+    ],
+    "O[6]": [
+      2944
+    ],
+    "O[7]": [
+      11554
+    ],
+    "clk": [
+      29412
+    ],
+    "enable": [
+      49515
+    ],
+    "rst_n": [
+      63211
+    ],
+    "success": [
+      14569
+    ],
+    "VGND": [
+      88887
+    ],
+    "VPWR": [
+      88888
+    ]
+  },
+  "pin_count": 2801,
+  "all_pins_single_net": true,
+  "bad_vias": 0,
+  "undriven_nets": {
+    "71909": [
+      {
+        "idx": 6991,
+        "cell": "sky130_fd_sc_hd__a31oi_2",
+        "pin": "A1",
+        "origin": [
+          177560,
+          92480
+        ]
+      },
+      {
+        "idx": 7091,
+        "cell": "sky130_fd_sc_hd__a311o_2",
+        "pin": "A1",
+        "origin": [
+          181700,
+          92480
+        ]
+      }
+    ]
+  },
+  "multidriven_nets": {},
+  "morse_layer": [
+    200,
+    0
+  ],
+  "morse_y_nm": -52720,
+  "morse_marks": 36,
+  "morse": ".--. . .-. / .- .-. . -. .- -- / .- -.. / .- ... - .-. .-",
+  "morse_text": "PER ARENAM AD ASTRA"
+}

@@ -1,0 +1,64 @@
+{
+  "all_six_intended_easter_eggs_verified": true,
+  "intended_easter_eggs": [
+    {
+      "id": 1,
+      "name": "Hidden VCD text",
+      "result": "The night sky awaits  ",
+      "evidence": "signals/signals_evidence.json",
+      "verified": true
+    },
+    {
+      "id": 2,
+      "name": "Leap-second date and waveform-viewer version clue",
+      "result": "Sat Dec 31 23:59:60 2016",
+      "evidence": "signals/signals_evidence.json",
+      "verified": true
+    },
+    {
+      "id": 3,
+      "name": "Outside-die Morse annotation",
+      "result": "PER ARENAM AD ASTRA",
+      "evidence": "geometry/morse_geometry.json",
+      "verified": true
+    },
+    {
+      "id": 4,
+      "name": "Failure-message branches",
+      "result": [
+        "EMPTY SKY",
+        "BIG BANG",
+        "TRY AGAIN",
+        "TWO\"NOT TOUCH"
+      ],
+      "evidence": "../results/verification.json",
+      "verified": true
+    },
+    {
+      "id": 5,
+      "name": "Met2 Jane Street logo",
+      "result": {
+        "pixels": 1366,
+        "grid": [
+          57,
+          57
+        ]
+      },
+      "evidence": "geometry/logo_pixelmap.json",
+      "verified": true
+    },
+    {
+      "id": 6,
+      "name": "Recovered region silhouettes",
+      "result": "JSC",
+      "interpretation": "Visual inference from exact I/H/K occupied-cell masks.",
+      "evidence": "signals/signals_evidence.json",
+      "verified": true
+    }
+  ],
+  "additional_floating_wire_defect_verified": true,
+  "floating_wire_evidence": "floating/floating_wire.json",
+  "answer": "(* TWO STARS *)",
+  "source_sha256": "8913ea4be5367b484d5886c3c5f7608942b67544a0dbe364b17223503b8d851a",
+  "scope": "Source extraction and Boolean functional reproduction; visual logo/glyph identification is corroborated by the organizer; no analog sign-off."
+}

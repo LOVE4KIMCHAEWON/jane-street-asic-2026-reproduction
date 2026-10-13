@@ -1,0 +1,17 @@
+name: Reproduce solution and all Easter eggs
+on:
+  push:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch pinned original puzzle
+        run: |
+          git clone https://github.com/janestreet/asic-puzzle-2026.git data/asic-puzzle-2026
+          git -C data/asic-puzzle-2026 checkout ffd53e0ba24e2fc1c1b12dc824e8eac5888c19a9
+      - name: Re-extract, solve, simulate, and audit
+        run: python3 run_all.py --puzzle-dir data/asic-puzzle-2026 --out work/results --evidence work/evidence

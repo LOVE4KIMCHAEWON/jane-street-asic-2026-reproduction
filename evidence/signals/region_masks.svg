@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="370" viewBox="0 0 680 370" role="img">
+<title>Three recovered region masks</title>
+<desc>Three five-row by three-column regions whose occupied-cell silhouettes resemble J, S and C. No letter glyph is superimposed.</desc>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<g font-family="DejaVu Sans, Arial, sans-serif" fill="#172334">
+<text x="25" y="31" font-size="23" text-anchor="start" font-weight="bold">Three recovered region masks</text>
+<text x="25" y="54" font-size="13" text-anchor="start" font-weight="normal">Filled squares are the original occupied cells; orientation is unchanged.</text>
+<text x="40" y="85" font-size="18" text-anchor="start" font-weight="bold">Region I</text>
+<rect x="40" y="105" width="37" height="37" fill="#ffffff" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="77" y="105" width="37" height="37" fill="#ffffff" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="114" y="105" width="37" height="37" fill="#5aa6d5" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="40" y="142" width="37" height="37" fill="#ffffff" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="77" y="142" width="37" height="37" fill="#ffffff" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="114" y="142" width="37" height="37" fill="#5aa6d5" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="40" y="179" width="37" height="37" fill="#ffffff" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="77" y="179" width="37" height="37" fill="#ffffff" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="114" y="179" width="37" height="37" fill="#5aa6d5" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="40" y="216" width="37" height="37" fill="#5aa6d5" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="77" y="216" width="37" height="37" fill="#ffffff" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="114" y="216" width="37" height="37" fill="#5aa6d5" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="40" y="253" width="37" height="37" fill="#5aa6d5" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="77" y="253" width="37" height="37" fill="#5aa6d5" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="114" y="253" width="37" height="37" fill="#5aa6d5" stroke="#c9cfd7" stroke-width="1"/>
+<text x="40" y="315" font-size="12" text-anchor="start" font-weight="normal">Rows 2–6; columns 1–3</text>
+<text x="40" y="335" font-size="12" text-anchor="start" font-weight="normal">8 recovered cells</text>
+<text x="260" y="85" font-size="18" text-anchor="start" font-weight="bold">Region H</text>
+<rect x="260" y="105" width="37" height="37" fill="#a274c7" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="297" y="105" width="37" height="37" fill="#a274c7" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="334" y="105" width="37" height="37" fill="#a274c7" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="260" y="142" width="37" height="37" fill="#a274c7" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="297" y="142" width="37" height="37" fill="#ffffff" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="334" y="142" width="37" height="37" fill="#ffffff" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="260" y="179" width="37" height="37" fill="#a274c7" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="297" y="179" width="37" height="37" fill="#a274c7" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="334" y="179" width="37" height="37" fill="#a274c7" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="260" y="216" width="37" height="37" fill="#ffffff" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="297" y="216" width="37" height="37" fill="#ffffff" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="334" y="216" width="37" height="37" fill="#a274c7" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="260" y="253" width="37" height="37" fill="#a274c7" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="297" y="253" width="37" height="37" fill="#a274c7" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="334" y="253" width="37" height="37" fill="#a274c7" stroke="#c9cfd7" stroke-width="1"/>
+<text x="260" y="315" font-size="12" text-anchor="start" font-weight="normal">Rows 4–8; columns 5–7</text>
+<text x="260" y="335" font-size="12" text-anchor="start" font-weight="normal">11 recovered cells</text>
+<text x="480" y="85" font-size="18" text-anchor="start" font-weight="bold">Region K</text>
+<rect x="480" y="105" width="37" height="37" fill="#60ab7a" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="517" y="105" width="37" height="37" fill="#60ab7a" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="554" y="105" width="37" height="37" fill="#60ab7a" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="480" y="142" width="37" height="37" fill="#60ab7a" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="517" y="142" width="37" height="37" fill="#ffffff" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="554" y="142" width="37" height="37" fill="#ffffff" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="480" y="179" width="37" height="37" fill="#60ab7a" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="517" y="179" width="37" height="37" fill="#ffffff" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="554" y="179" width="37" height="37" fill="#ffffff" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="480" y="216" width="37" height="37" fill="#60ab7a" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="517" y="216" width="37" height="37" fill="#ffffff" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="554" y="216" width="37" height="37" fill="#ffffff" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="480" y="253" width="37" height="37" fill="#60ab7a" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="517" y="253" width="37" height="37" fill="#60ab7a" stroke="#c9cfd7" stroke-width="1"/>
+<rect x="554" y="253" width="37" height="37" fill="#60ab7a" stroke="#c9cfd7" stroke-width="1"/>
+<text x="480" y="315" font-size="12" text-anchor="start" font-weight="normal">Rows 6–10; columns 9–11</text>
+<text x="480" y="335" font-size="12" text-anchor="start" font-weight="normal">9 recovered cells</text>
+</g>
+</svg>

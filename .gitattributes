@@ -1,0 +1,4 @@
+# Preserve generated evidence bytes so the recorded SHA-256 digests stay valid.
+* -text
+*.pdf binary
+*.png binary

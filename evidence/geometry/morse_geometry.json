@@ -1,0 +1,818 @@
+{
+  "source_file": "puzzle.gds",
+  "source_sha256": "8913ea4be5367b484d5886c3c5f7608942b67544a0dbe364b17223503b8d851a",
+  "gds_top_cell": "puzzle",
+  "coordinate_units": "nanometres",
+  "kind": "outside_die_morse",
+  "layer": 200,
+  "datatype": 0,
+  "bbox_nm": [
+    1330,
+    -52720,
+    198670,
+    -50000
+  ],
+  "unit_nm": 1380,
+  "dot_width_nm": 1380,
+  "dash_width_nm": 4140,
+  "mark_height_nm": 2720,
+  "gaps_units": {
+    "intra_letter": 1,
+    "inter_letter": 3,
+    "inter_word": 7
+  },
+  "mark_count": 36,
+  "morse": ".--. . .-. / .- .-. . -. .- -- / .- -.. / .- ... - .-. .-",
+  "decoded": "PER ARENAM AD ASTRA",
+  "letter_groups": [
+    {
+      "morse": ".--.",
+      "letter": "P",
+      "mark_reference_indices": [
+        6754,
+        6755,
+        6756,
+        6757
+      ]
+    },
+    {
+      "morse": ".",
+      "letter": "E",
+      "mark_reference_indices": [
+        6758
+      ]
+    },
+    {
+      "morse": ".-.",
+      "letter": "R",
+      "mark_reference_indices": [
+        6759,
+        6760,
+        6761
+      ]
+    },
+    {
+      "word_break": true
+    },
+    {
+      "morse": ".-",
+      "letter": "A",
+      "mark_reference_indices": [
+        6762,
+        5608
+      ]
+    },
+    {
+      "morse": ".-.",
+      "letter": "R",
+      "mark_reference_indices": [
+        6867,
+        6864,
+        6865
+      ]
+    },
+    {
+      "morse": ".",
+      "letter": "E",
+      "mark_reference_indices": [
+        6866
+      ]
+    },
+    {
+      "morse": "-.",
+      "letter": "N",
+      "mark_reference_indices": [
+        6871,
+        6868
+      ]
+    },
+    {
+      "morse": ".-",
+      "letter": "A",
+      "mark_reference_indices": [
+        6869,
+        6870
+      ]
+    },
+    {
+      "morse": "--",
+      "letter": "M",
+      "mark_reference_indices": [
+        77,
+        8988
+      ]
+    },
+    {
+      "word_break": true
+    },
+    {
+      "morse": ".-",
+      "letter": "A",
+      "mark_reference_indices": [
+        8989,
+        8990
+      ]
+    },
+    {
+      "morse": "-..",
+      "letter": "D",
+      "mark_reference_indices": [
+        8991,
+        8992,
+        8993
+      ]
+    },
+    {
+      "word_break": true
+    },
+    {
+      "morse": ".-",
+      "letter": "A",
+      "mark_reference_indices": [
+        8994,
+        9865
+      ]
+    },
+    {
+      "morse": "...",
+      "letter": "S",
+      "mark_reference_indices": [
+        9866,
+        9867,
+        9868
+      ]
+    },
+    {
+      "morse": "-",
+      "letter": "T",
+      "mark_reference_indices": [
+        9869
+      ]
+    },
+    {
+      "morse": ".-.",
+      "letter": "R",
+      "mark_reference_indices": [
+        9870,
+        9871,
+        9872
+      ]
+    },
+    {
+      "morse": ".-",
+      "letter": "A",
+      "mark_reference_indices": [
+        9873,
+        9874
+      ]
+    }
+  ],
+  "source_marks": [
+    {
+      "top_reference_index": 6754,
+      "cell": "INTERNAL_3",
+      "origin_nm": [
+        1330,
+        -52720
+      ],
+      "bbox_nm": [
+        1330,
+        -52720,
+        2710,
+        -50000
+      ],
+      "width_nm": 1380,
+      "symbol": "."
+    },
+    {
+      "top_reference_index": 6755,
+      "cell": "INTERNAL_7",
+      "origin_nm": [
+        4090,
+        -52720
+      ],
+      "bbox_nm": [
+        4090,
+        -52720,
+        8230,
+        -50000
+      ],
+      "width_nm": 4140,
+      "gap_before_nm": 1380,
+      "gap_before_units": 1,
+      "symbol": "-"
+    },
+    {
+      "top_reference_index": 6756,
+      "cell": "INTERNAL_7",
+      "origin_nm": [
+        9610,
+        -52720
+      ],
+      "bbox_nm": [
+        9610,
+        -52720,
+        13750,
+        -50000
+      ],
+      "width_nm": 4140,
+      "gap_before_nm": 1380,
+      "gap_before_units": 1,
+      "symbol": "-"
+    },
+    {
+      "top_reference_index": 6757,
+      "cell": "INTERNAL_3",
+      "origin_nm": [
+        15130,
+        -52720
+      ],
+      "bbox_nm": [
+        15130,
+        -52720,
+        16510,
+        -50000
+      ],
+      "width_nm": 1380,
+      "gap_before_nm": 1380,
+      "gap_before_units": 1,
+      "symbol": "."
+    },
+    {
+      "top_reference_index": 6758,
+      "cell": "INTERNAL_3",
+      "origin_nm": [
+        20650,
+        -52720
+      ],
+      "bbox_nm": [
+        20650,
+        -52720,
+        22030,
+        -50000
+      ],
+      "width_nm": 1380,
+      "gap_before_nm": 4140,
+      "gap_before_units": 3,
+      "symbol": "."
+    },
+    {
+      "top_reference_index": 6759,
+      "cell": "INTERNAL_3",
+      "origin_nm": [
+        26170,
+        -52720
+      ],
+      "bbox_nm": [
+        26170,
+        -52720,
+        27550,
+        -50000
+      ],
+      "width_nm": 1380,
+      "gap_before_nm": 4140,
+      "gap_before_units": 3,
+      "symbol": "."
+    },
+    {
+      "top_reference_index": 6760,
+      "cell": "INTERNAL_7",
+      "origin_nm": [
+        28930,
+        -52720
+      ],
+      "bbox_nm": [
+        28930,
+        -52720,
+        33070,
+        -50000
+      ],
+      "width_nm": 4140,
+      "gap_before_nm": 1380,
+      "gap_before_units": 1,
+      "symbol": "-"
+    },
+    {
+      "top_reference_index": 6761,
+      "cell": "INTERNAL_3",
+      "origin_nm": [
+        34450,
+        -52720
+      ],
+      "bbox_nm": [
+        34450,
+        -52720,
+        35830,
+        -50000
+      ],
+      "width_nm": 1380,
+      "gap_before_nm": 1380,
+      "gap_before_units": 1,
+      "symbol": "."
+    },
+    {
+      "top_reference_index": 6762,
+      "cell": "INTERNAL_3",
+      "origin_nm": [
+        45490,
+        -52720
+      ],
+      "bbox_nm": [
+        45490,
+        -52720,
+        46870,
+        -50000
+      ],
+      "width_nm": 1380,
+      "gap_before_nm": 9660,
+      "gap_before_units": 7,
+      "symbol": "."
+    },
+    {
+      "top_reference_index": 5608,
+      "cell": "INTERNAL_7",
+      "origin_nm": [
+        48250,
+        -52720
+      ],
+      "bbox_nm": [
+        48250,
+        -52720,
+        52390,
+        -50000
+      ],
+      "width_nm": 4140,
+      "gap_before_nm": 1380,
+      "gap_before_units": 1,
+      "symbol": "-"
+    },
+    {
+      "top_reference_index": 6867,
+      "cell": "INTERNAL_3",
+      "origin_nm": [
+        56530,
+        -52720
+      ],
+      "bbox_nm": [
+        56530,
+        -52720,
+        57910,
+        -50000
+      ],
+      "width_nm": 1380,
+      "gap_before_nm": 4140,
+      "gap_before_units": 3,
+      "symbol": "."
+    },
+    {
+      "top_reference_index": 6864,
+      "cell": "INTERNAL_7",
+      "origin_nm": [
+        59290,
+        -52720
+      ],
+      "bbox_nm": [
+        59290,
+        -52720,
+        63430,
+        -50000
+      ],
+      "width_nm": 4140,
+      "gap_before_nm": 1380,
+      "gap_before_units": 1,
+      "symbol": "-"
+    },
+    {
+      "top_reference_index": 6865,
+      "cell": "INTERNAL_3",
+      "origin_nm": [
+        64810,
+        -52720
+      ],
+      "bbox_nm": [
+        64810,
+        -52720,
+        66190,
+        -50000
+      ],
+      "width_nm": 1380,
+      "gap_before_nm": 1380,
+      "gap_before_units": 1,
+      "symbol": "."
+    },
+    {
+      "top_reference_index": 6866,
+      "cell": "INTERNAL_3",
+      "origin_nm": [
+        70330,
+        -52720
+      ],
+      "bbox_nm": [
+        70330,
+        -52720,
+        71710,
+        -50000
+      ],
+      "width_nm": 1380,
+      "gap_before_nm": 4140,
+      "gap_before_units": 3,
+      "symbol": "."
+    },
+    {
+      "top_reference_index": 6871,
+      "cell": "INTERNAL_7",
+      "origin_nm": [
+        75850,
+        -52720
+      ],
+      "bbox_nm": [
+        75850,
+        -52720,
+        79990,
+        -50000
+      ],
+      "width_nm": 4140,
+      "gap_before_nm": 4140,
+      "gap_before_units": 3,
+      "symbol": "-"
+    },
+    {
+      "top_reference_index": 6868,
+      "cell": "INTERNAL_3",
+      "origin_nm": [
+        81370,
+        -52720
+      ],
+      "bbox_nm": [
+        81370,
+        -52720,
+        82750,
+        -50000
+      ],
+      "width_nm": 1380,
+      "gap_before_nm": 1380,
+      "gap_before_units": 1,
+      "symbol": "."
+    },
+    {
+      "top_reference_index": 6869,
+      "cell": "INTERNAL_3",
+      "origin_nm": [
+        86890,
+        -52720
+      ],
+      "bbox_nm": [
+        86890,
+        -52720,
+        88270,
+        -50000
+      ],
+      "width_nm": 1380,
+      "gap_before_nm": 4140,
+      "gap_before_units": 3,
+      "symbol": "."
+    },
+    {
+      "top_reference_index": 6870,
+      "cell": "INTERNAL_7",
+      "origin_nm": [
+        89650,
+        -52720
+      ],
+      "bbox_nm": [
+        89650,
+        -52720,
+        93790,
+        -50000
+      ],
+      "width_nm": 4140,
+      "gap_before_nm": 1380,
+      "gap_before_units": 1,
+      "symbol": "-"
+    },
+    {
+      "top_reference_index": 77,
+      "cell": "INTERNAL_7",
+      "origin_nm": [
+        97930,
+        -52720
+      ],
+      "bbox_nm": [
+        97930,
+        -52720,
+        102070,
+        -50000
+      ],
+      "width_nm": 4140,
+      "gap_before_nm": 4140,
+      "gap_before_units": 3,
+      "symbol": "-"
+    },
+    {
+      "top_reference_index": 8988,
+      "cell": "INTERNAL_7",
+      "origin_nm": [
+        103450,
+        -52720
+      ],
+      "bbox_nm": [
+        103450,
+        -52720,
+        107590,
+        -50000
+      ],
+      "width_nm": 4140,
+      "gap_before_nm": 1380,
+      "gap_before_units": 1,
+      "symbol": "-"
+    },
+    {
+      "top_reference_index": 8989,
+      "cell": "INTERNAL_3",
+      "origin_nm": [
+        117250,
+        -52720
+      ],
+      "bbox_nm": [
+        117250,
+        -52720,
+        118630,
+        -50000
+      ],
+      "width_nm": 1380,
+      "gap_before_nm": 9660,
+      "gap_before_units": 7,
+      "symbol": "."
+    },
+    {
+      "top_reference_index": 8990,
+      "cell": "INTERNAL_7",
+      "origin_nm": [
+        120010,
+        -52720
+      ],
+      "bbox_nm": [
+        120010,
+        -52720,
+        124150,
+        -50000
+      ],
+      "width_nm": 4140,
+      "gap_before_nm": 1380,
+      "gap_before_units": 1,
+      "symbol": "-"
+    },
+    {
+      "top_reference_index": 8991,
+      "cell": "INTERNAL_7",
+      "origin_nm": [
+        128290,
+        -52720
+      ],
+      "bbox_nm": [
+        128290,
+        -52720,
+        132430,
+        -50000
+      ],
+      "width_nm": 4140,
+      "gap_before_nm": 4140,
+      "gap_before_units": 3,
+      "symbol": "-"
+    },
+    {
+      "top_reference_index": 8992,
+      "cell": "INTERNAL_3",
+      "origin_nm": [
+        133810,
+        -52720
+      ],
+      "bbox_nm": [
+        133810,
+        -52720,
+        135190,
+        -50000
+      ],
+      "width_nm": 1380,
+      "gap_before_nm": 1380,
+      "gap_before_units": 1,
+      "symbol": "."
+    },
+    {
+      "top_reference_index": 8993,
+      "cell": "INTERNAL_3",
+      "origin_nm": [
+        136570,
+        -52720
+      ],
+      "bbox_nm": [
+        136570,
+        -52720,
+        137950,
+        -50000
+      ],
+      "width_nm": 1380,
+      "gap_before_nm": 1380,
+      "gap_before_units": 1,
+      "symbol": "."
+    },
+    {
+      "top_reference_index": 8994,
+      "cell": "INTERNAL_3",
+      "origin_nm": [
+        147610,
+        -52720
+      ],
+      "bbox_nm": [
+        147610,
+        -52720,
+        148990,
+        -50000
+      ],
+      "width_nm": 1380,
+      "gap_before_nm": 9660,
+      "gap_before_units": 7,
+      "symbol": "."
+    },
+    {
+      "top_reference_index": 9865,
+      "cell": "INTERNAL_7",
+      "origin_nm": [
+        150370,
+        -52720
+      ],
+      "bbox_nm": [
+        150370,
+        -52720,
+        154510,
+        -50000
+      ],
+      "width_nm": 4140,
+      "gap_before_nm": 1380,
+      "gap_before_units": 1,
+      "symbol": "-"
+    },
+    {
+      "top_reference_index": 9866,
+      "cell": "INTERNAL_3",
+      "origin_nm": [
+        158650,
+        -52720
+      ],
+      "bbox_nm": [
+        158650,
+        -52720,
+        160030,
+        -50000
+      ],
+      "width_nm": 1380,
+      "gap_before_nm": 4140,
+      "gap_before_units": 3,
+      "symbol": "."
+    },
+    {
+      "top_reference_index": 9867,
+      "cell": "INTERNAL_3",
+      "origin_nm": [
+        161410,
+        -52720
+      ],
+      "bbox_nm": [
+        161410,
+        -52720,
+        162790,
+        -50000
+      ],
+      "width_nm": 1380,
+      "gap_before_nm": 1380,
+      "gap_before_units": 1,
+      "symbol": "."
+    },
+    {
+      "top_reference_index": 9868,
+      "cell": "INTERNAL_3",
+      "origin_nm": [
+        164170,
+        -52720
+      ],
+      "bbox_nm": [
+        164170,
+        -52720,
+        165550,
+        -50000
+      ],
+      "width_nm": 1380,
+      "gap_before_nm": 1380,
+      "gap_before_units": 1,
+      "symbol": "."
+    },
+    {
+      "top_reference_index": 9869,
+      "cell": "INTERNAL_7",
+      "origin_nm": [
+        169690,
+        -52720
+      ],
+      "bbox_nm": [
+        169690,
+        -52720,
+        173830,
+        -50000
+      ],
+      "width_nm": 4140,
+      "gap_before_nm": 4140,
+      "gap_before_units": 3,
+      "symbol": "-"
+    },
+    {
+      "top_reference_index": 9870,
+      "cell": "INTERNAL_3",
+      "origin_nm": [
+        177970,
+        -52720
+      ],
+      "bbox_nm": [
+        177970,
+        -52720,
+        179350,
+        -50000
+      ],
+      "width_nm": 1380,
+      "gap_before_nm": 4140,
+      "gap_before_units": 3,
+      "symbol": "."
+    },
+    {
+      "top_reference_index": 9871,
+      "cell": "INTERNAL_7",
+      "origin_nm": [
+        180730,
+        -52720
+      ],
+      "bbox_nm": [
+        180730,
+        -52720,
+        184870,
+        -50000
+      ],
+      "width_nm": 4140,
+      "gap_before_nm": 1380,
+      "gap_before_units": 1,
+      "symbol": "-"
+    },
+    {
+      "top_reference_index": 9872,
+      "cell": "INTERNAL_3",
+      "origin_nm": [
+        186250,
+        -52720
+      ],
+      "bbox_nm": [
+        186250,
+        -52720,
+        187630,
+        -50000
+      ],
+      "width_nm": 1380,
+      "gap_before_nm": 1380,
+      "gap_before_units": 1,
+      "symbol": "."
+    },
+    {
+      "top_reference_index": 9873,
+      "cell": "INTERNAL_3",
+      "origin_nm": [
+        191770,
+        -52720
+      ],
+      "bbox_nm": [
+        191770,
+        -52720,
+        193150,
+        -50000
+      ],
+      "width_nm": 1380,
+      "gap_before_nm": 4140,
+      "gap_before_units": 3,
+      "symbol": "."
+    },
+    {
+      "top_reference_index": 9874,
+      "cell": "INTERNAL_7",
+      "origin_nm": [
+        194530,
+        -52720
+      ],
+      "bbox_nm": [
+        194530,
+        -52720,
+        198670,
+        -50000
+      ],
+      "width_nm": 4140,
+      "gap_before_nm": 1380,
+      "gap_before_units": 1,
+      "symbol": "-"
+    }
+  ]
+}

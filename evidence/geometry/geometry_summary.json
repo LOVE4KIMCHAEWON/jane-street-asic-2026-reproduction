@@ -1,0 +1,57 @@
+{
+  "source_file": "puzzle.gds",
+  "source_sha256": "8913ea4be5367b484d5886c3c5f7608942b67544a0dbe364b17223503b8d851a",
+  "gds_top_cell": "puzzle",
+  "coordinate_units": "nanometres",
+  "logo": {
+    "pixel_count": 1366,
+    "pixel_size_nm": [
+      300,
+      300
+    ],
+    "pitch_nm": 300,
+    "bbox_nm": [
+      34900,
+      35200,
+      52000,
+      52300
+    ],
+    "rows": 57,
+    "columns": 57,
+    "conservative_isolation_check": {
+      "compared_layer_datatypes": [
+        [
+          69,
+          20
+        ],
+        [
+          68,
+          44
+        ],
+        [
+          69,
+          44
+        ]
+      ],
+      "other_geometry_bboxes_intersecting_logo_bbox": 0,
+      "geometry_touching_any_source_pixel": 0,
+      "contacts": [],
+      "electrically_isolated_from_routing": true
+    }
+  },
+  "morse": {
+    "mark_count": 36,
+    "bbox_nm": [
+      1330,
+      -52720,
+      198670,
+      -50000
+    ],
+    "unit_nm": 1380,
+    "dot_width_nm": 1380,
+    "dash_width_nm": 4140,
+    "mark_height_nm": 2720,
+    "morse": ".--. . .-. / .- .-. . -. .- -- / .- -.. / .- ... - .-. .-",
+    "decoded": "PER ARENAM AD ASTRA"
+  }
+}

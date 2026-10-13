@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite this AI-assisted technical report and preserve the upstream tool attributions."
+type: software
+title: "Reproducible Reverse Engineering of the Jane Street 2026 ASIC Puzzle"
+authors:
+  - family-names: "LOVE4KIMCHAEWON"
+version: 1.0.0
+date-released: 2026-10-13
+repository-code: "https://github.com/LOVE4KIMCHAEWON/jane-street-asic-2026-reproduction"
+url: "https://github.com/LOVE4KIMCHAEWON/jane-street-asic-2026-reproduction/blob/main/paper/paper.pdf"
+license: MIT
+abstract: "An AI-assisted reproduction and evidence audit of the original ASIC puzzle, including netlist recovery, unique Star Battle solution, all six intended Easter eggs and the floating-wire defect. Conducted after public solution release; not peer reviewed."

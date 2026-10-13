@@ -1,0 +1,618 @@
+{
+  "source_files": {
+    "vcd": {
+      "name": "example_inputs.vcd",
+      "sha256": "2247ae1c1195322616e9ac81dbfccb5b84c9994b96c28f1a106c2100a7bcbe2e"
+    },
+    "verification": {
+      "name": "verification.json",
+      "sha256": "bcd925865c51897aad7f45b12b28309506afce0f447914d9d254af4de1cc6141"
+    }
+  },
+  "vcd_header": {
+    "date": "Sat Dec 31 23:59:60 2016",
+    "version": "Leave no stone unturned! But for this file, consider looking at it in a waveform viewer instead.",
+    "timescale": "1ps",
+    "weekday_check": true,
+    "leap_second_interpretation": "The unusual second 60 exactly matches the UTC leap second on 2016-12-31. The VCD field does not name a timezone or prove a real file-creation time.",
+    "authoritative_sources_checked_on": "2026-10-13",
+    "sources": [
+      {
+        "title": "IERS Bulletin C 52 (6 July 2016)",
+        "url": "https://datacenter.iers.org/data/16/bulletinc-052.txt",
+        "claim": "Announces a positive leap second and explicitly lists 2016 December 31, 23h 59m 60s between 23h 59m 59s and 2017 January 1, 0h 0m 0s."
+      },
+      {
+        "title": "NIST: Leap second and UT1-UTC information",
+        "url": "https://www.nist.gov/pml/time-and-frequency-division/time-realization/leap-seconds",
+        "claim": "Lists 2016-12-31 as a positive leap-second date (MJD 57753), and gives the 23:59:59, 23:59:60, 00:00:00 sequence."
+      }
+    ]
+  },
+  "vcd_input_decode": {
+    "signals": {
+      "clk": {
+        "width": 1,
+        "identifier": "!"
+      },
+      "rst_n": {
+        "width": 1,
+        "identifier": "\""
+      },
+      "enable": {
+        "width": 1,
+        "identifier": "#"
+      },
+      "I": {
+        "width": 1,
+        "identifier": "$"
+      },
+      "O": {
+        "width": 8,
+        "identifier": "%"
+      },
+      "success": {
+        "width": 1,
+        "identifier": "&"
+      }
+    },
+    "total_clock_rising_edges": 312,
+    "sampling_rule": "At each rising edge of clk, use I when rst_n=1 and enable=1; collect each continuous enabled run as an attempt.",
+    "attempt_count": 2,
+    "attempt_bit_counts": [
+      121,
+      121
+    ],
+    "attempt_bitstrings": [
+      "0010101000000010110000101001100000000010000001110110000100101100001110011000000010110000001011100000000010000011001110000",
+      "1101011000010011110000000001000001000011000011101110000100001100001001011000000101110000110011100000000010000000000100000"
+    ],
+    "attempt_first_last_sample_time_ps": [
+      [
+        45000,
+        1245000
+      ],
+      [
+        1605000,
+        2805000
+      ]
+    ],
+    "character_rule": "Each attempt is 11 rows of 11 serial bits. The first 7 bits of each row are ASCII, least-significant bit first; the last 4 bits are zero. Rows and attempts retain capture order.",
+    "decoded_including_padding": "The night sky awaits  ",
+    "decoded_message": "The night sky awaits",
+    "trailing_space_characters": 2,
+    "decoded_per_attempt": [
+      "The night s",
+      "ky awaits  "
+    ],
+    "rows": [
+      {
+        "attempt": 1,
+        "grid_row_one_based": 1,
+        "serial_bit_start_one_based_in_attempt": 1,
+        "row_bits_in_capture_order": "00101010000",
+        "character_bits_lsb_first": "0010101",
+        "unused_last_four_bits": "0000",
+        "ascii_decimal": 84,
+        "ascii_hex": "54",
+        "character": "T",
+        "first_sample_time_ps": 45000,
+        "last_sample_time_ps": 145000
+      },
+      {
+        "attempt": 1,
+        "grid_row_one_based": 2,
+        "serial_bit_start_one_based_in_attempt": 12,
+        "row_bits_in_capture_order": "00010110000",
+        "character_bits_lsb_first": "0001011",
+        "unused_last_four_bits": "0000",
+        "ascii_decimal": 104,
+        "ascii_hex": "68",
+        "character": "h",
+        "first_sample_time_ps": 155000,
+        "last_sample_time_ps": 255000
+      },
+      {
+        "attempt": 1,
+        "grid_row_one_based": 3,
+        "serial_bit_start_one_based_in_attempt": 23,
+        "row_bits_in_capture_order": "10100110000",
+        "character_bits_lsb_first": "1010011",
+        "unused_last_four_bits": "0000",
+        "ascii_decimal": 101,
+        "ascii_hex": "65",
+        "character": "e",
+        "first_sample_time_ps": 265000,
+        "last_sample_time_ps": 365000
+      },
+      {
+        "attempt": 1,
+        "grid_row_one_based": 4,
+        "serial_bit_start_one_based_in_attempt": 34,
+        "row_bits_in_capture_order": "00000100000",
+        "character_bits_lsb_first": "0000010",
+        "unused_last_four_bits": "0000",
+        "ascii_decimal": 32,
+        "ascii_hex": "20",
+        "character": " ",
+        "first_sample_time_ps": 375000,
+        "last_sample_time_ps": 475000
+      },
+      {
+        "attempt": 1,
+        "grid_row_one_based": 5,
+        "serial_bit_start_one_based_in_attempt": 45,
+        "row_bits_in_capture_order": "01110110000",
+        "character_bits_lsb_first": "0111011",
+        "unused_last_four_bits": "0000",
+        "ascii_decimal": 110,
+        "ascii_hex": "6e",
+        "character": "n",
+        "first_sample_time_ps": 485000,
+        "last_sample_time_ps": 585000
+      },
+      {
+        "attempt": 1,
+        "grid_row_one_based": 6,
+        "serial_bit_start_one_based_in_attempt": 56,
+        "row_bits_in_capture_order": "10010110000",
+        "character_bits_lsb_first": "1001011",
+        "unused_last_four_bits": "0000",
+        "ascii_decimal": 105,
+        "ascii_hex": "69",
+        "character": "i",
+        "first_sample_time_ps": 595000,
+        "last_sample_time_ps": 695000
+      },
+      {
+        "attempt": 1,
+        "grid_row_one_based": 7,
+        "serial_bit_start_one_based_in_attempt": 67,
+        "row_bits_in_capture_order": "11100110000",
+        "character_bits_lsb_first": "1110011",
+        "unused_last_four_bits": "0000",
+        "ascii_decimal": 103,
+        "ascii_hex": "67",
+        "character": "g",
+        "first_sample_time_ps": 705000,
+        "last_sample_time_ps": 805000
+      },
+      {
+        "attempt": 1,
+        "grid_row_one_based": 8,
+        "serial_bit_start_one_based_in_attempt": 78,
+        "row_bits_in_capture_order": "00010110000",
+        "character_bits_lsb_first": "0001011",
+        "unused_last_four_bits": "0000",
+        "ascii_decimal": 104,
+        "ascii_hex": "68",
+        "character": "h",
+        "first_sample_time_ps": 815000,
+        "last_sample_time_ps": 915000
+      },
+      {
+        "attempt": 1,
+        "grid_row_one_based": 9,
+        "serial_bit_start_one_based_in_attempt": 89,
+        "row_bits_in_capture_order": "00101110000",
+        "character_bits_lsb_first": "0010111",
+        "unused_last_four_bits": "0000",
+        "ascii_decimal": 116,
+        "ascii_hex": "74",
+        "character": "t",
+        "first_sample_time_ps": 925000,
+        "last_sample_time_ps": 1025000
+      },
+      {
+        "attempt": 1,
+        "grid_row_one_based": 10,
+        "serial_bit_start_one_based_in_attempt": 100,
+        "row_bits_in_capture_order": "00000100000",
+        "character_bits_lsb_first": "0000010",
+        "unused_last_four_bits": "0000",
+        "ascii_decimal": 32,
+        "ascii_hex": "20",
+        "character": " ",
+        "first_sample_time_ps": 1035000,
+        "last_sample_time_ps": 1135000
+      },
+      {
+        "attempt": 1,
+        "grid_row_one_based": 11,
+        "serial_bit_start_one_based_in_attempt": 111,
+        "row_bits_in_capture_order": "11001110000",
+        "character_bits_lsb_first": "1100111",
+        "unused_last_four_bits": "0000",
+        "ascii_decimal": 115,
+        "ascii_hex": "73",
+        "character": "s",
+        "first_sample_time_ps": 1145000,
+        "last_sample_time_ps": 1245000
+      },
+      {
+        "attempt": 2,
+        "grid_row_one_based": 1,
+        "serial_bit_start_one_based_in_attempt": 1,
+        "row_bits_in_capture_order": "11010110000",
+        "character_bits_lsb_first": "1101011",
+        "unused_last_four_bits": "0000",
+        "ascii_decimal": 107,
+        "ascii_hex": "6b",
+        "character": "k",
+        "first_sample_time_ps": 1605000,
+        "last_sample_time_ps": 1705000
+      },
+      {
+        "attempt": 2,
+        "grid_row_one_based": 2,
+        "serial_bit_start_one_based_in_attempt": 12,
+        "row_bits_in_capture_order": "10011110000",
+        "character_bits_lsb_first": "1001111",
+        "unused_last_four_bits": "0000",
+        "ascii_decimal": 121,
+        "ascii_hex": "79",
+        "character": "y",
+        "first_sample_time_ps": 1715000,
+        "last_sample_time_ps": 1815000
+      },
+      {
+        "attempt": 2,
+        "grid_row_one_based": 3,
+        "serial_bit_start_one_based_in_attempt": 23,
+        "row_bits_in_capture_order": "00000100000",
+        "character_bits_lsb_first": "0000010",
+        "unused_last_four_bits": "0000",
+        "ascii_decimal": 32,
+        "ascii_hex": "20",
+        "character": " ",
+        "first_sample_time_ps": 1825000,
+        "last_sample_time_ps": 1925000
+      },
+      {
+        "attempt": 2,
+        "grid_row_one_based": 4,
+        "serial_bit_start_one_based_in_attempt": 34,
+        "row_bits_in_capture_order": "10000110000",
+        "character_bits_lsb_first": "1000011",
+        "unused_last_four_bits": "0000",
+        "ascii_decimal": 97,
+        "ascii_hex": "61",
+        "character": "a",
+        "first_sample_time_ps": 1935000,
+        "last_sample_time_ps": 2035000
+      },
+      {
+        "attempt": 2,
+        "grid_row_one_based": 5,
+        "serial_bit_start_one_based_in_attempt": 45,
+        "row_bits_in_capture_order": "11101110000",
+        "character_bits_lsb_first": "1110111",
+        "unused_last_four_bits": "0000",
+        "ascii_decimal": 119,
+        "ascii_hex": "77",
+        "character": "w",
+        "first_sample_time_ps": 2045000,
+        "last_sample_time_ps": 2145000
+      },
+      {
+        "attempt": 2,
+        "grid_row_one_based": 6,
+        "serial_bit_start_one_based_in_attempt": 56,
+        "row_bits_in_capture_order": "10000110000",
+        "character_bits_lsb_first": "1000011",
+        "unused_last_four_bits": "0000",
+        "ascii_decimal": 97,
+        "ascii_hex": "61",
+        "character": "a",
+        "first_sample_time_ps": 2155000,
+        "last_sample_time_ps": 2255000
+      },
+      {
+        "attempt": 2,
+        "grid_row_one_based": 7,
+        "serial_bit_start_one_based_in_attempt": 67,
+        "row_bits_in_capture_order": "10010110000",
+        "character_bits_lsb_first": "1001011",
+        "unused_last_four_bits": "0000",
+        "ascii_decimal": 105,
+        "ascii_hex": "69",
+        "character": "i",
+        "first_sample_time_ps": 2265000,
+        "last_sample_time_ps": 2365000
+      },
+      {
+        "attempt": 2,
+        "grid_row_one_based": 8,
+        "serial_bit_start_one_based_in_attempt": 78,
+        "row_bits_in_capture_order": "00101110000",
+        "character_bits_lsb_first": "0010111",
+        "unused_last_four_bits": "0000",
+        "ascii_decimal": 116,
+        "ascii_hex": "74",
+        "character": "t",
+        "first_sample_time_ps": 2375000,
+        "last_sample_time_ps": 2475000
+      },
+      {
+        "attempt": 2,
+        "grid_row_one_based": 9,
+        "serial_bit_start_one_based_in_attempt": 89,
+        "row_bits_in_capture_order": "11001110000",
+        "character_bits_lsb_first": "1100111",
+        "unused_last_four_bits": "0000",
+        "ascii_decimal": 115,
+        "ascii_hex": "73",
+        "character": "s",
+        "first_sample_time_ps": 2485000,
+        "last_sample_time_ps": 2585000
+      },
+      {
+        "attempt": 2,
+        "grid_row_one_based": 10,
+        "serial_bit_start_one_based_in_attempt": 100,
+        "row_bits_in_capture_order": "00000100000",
+        "character_bits_lsb_first": "0000010",
+        "unused_last_four_bits": "0000",
+        "ascii_decimal": 32,
+        "ascii_hex": "20",
+        "character": " ",
+        "first_sample_time_ps": 2595000,
+        "last_sample_time_ps": 2695000
+      },
+      {
+        "attempt": 2,
+        "grid_row_one_based": 11,
+        "serial_bit_start_one_based_in_attempt": 111,
+        "row_bits_in_capture_order": "00000100000",
+        "character_bits_lsb_first": "0000010",
+        "unused_last_four_bits": "0000",
+        "ascii_decimal": 32,
+        "ascii_hex": "20",
+        "character": " ",
+        "first_sample_time_ps": 2705000,
+        "last_sample_time_ps": 2805000
+      }
+    ]
+  },
+  "region_geometry": {
+    "orientation": "Same as input grid: rows top to bottom; columns left to right. No rotation or reflection.",
+    "label_caveat": "A–K are extraction labels for sets of cells, not a premise for the glyph reading.",
+    "region_cell_counts": {
+      "A": 6,
+      "B": 28,
+      "C": 21,
+      "D": 7,
+      "E": 5,
+      "F": 8,
+      "G": 14,
+      "H": 11,
+      "I": 8,
+      "J": 4,
+      "K": 9
+    },
+    "reading": "JSC",
+    "interpretation": "Three spatially ordered 5x3 occupied-cell silhouettes resemble J, S and C, plausibly Jane Street Capital's initials. This identification is a visual inference from the extracted masks.",
+    "masks": [
+      {
+        "region": "I",
+        "cell_count": 8,
+        "bounding_box_one_based": {
+          "row_min": 2,
+          "row_max": 6,
+          "column_min": 1,
+          "column_max": 3
+        },
+        "occupied_cells_one_based": [
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            3
+          ]
+        ],
+        "mask_top_to_bottom_left_to_right": [
+          "..#",
+          "..#",
+          "..#",
+          "#.#",
+          "###"
+        ],
+        "visual_reading": "J"
+      },
+      {
+        "region": "H",
+        "cell_count": 11,
+        "bounding_box_one_based": {
+          "row_min": 4,
+          "row_max": 8,
+          "column_min": 5,
+          "column_max": 7
+        },
+        "occupied_cells_one_based": [
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            8,
+            5
+          ],
+          [
+            8,
+            6
+          ],
+          [
+            8,
+            7
+          ]
+        ],
+        "mask_top_to_bottom_left_to_right": [
+          "###",
+          "#..",
+          "###",
+          "..#",
+          "###"
+        ],
+        "visual_reading": "S"
+      },
+      {
+        "region": "K",
+        "cell_count": 9,
+        "bounding_box_one_based": {
+          "row_min": 6,
+          "row_max": 10,
+          "column_min": 9,
+          "column_max": 11
+        },
+        "occupied_cells_one_based": [
+          [
+            6,
+            9
+          ],
+          [
+            6,
+            10
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            7,
+            9
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            9
+          ],
+          [
+            10,
+            9
+          ],
+          [
+            10,
+            10
+          ],
+          [
+            10,
+            11
+          ]
+        ],
+        "mask_top_to_bottom_left_to_right": [
+          "###",
+          "#..",
+          "#..",
+          "#..",
+          "###"
+        ],
+        "visual_reading": "C"
+      }
+    ]
+  },
+  "star_board_constraints": {
+    "row_counts": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "column_counts": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "region_counts": {
+      "A": 2,
+      "B": 2,
+      "C": 2,
+      "D": 2,
+      "E": 2,
+      "F": 2,
+      "G": 2,
+      "H": 2,
+      "I": 2,
+      "J": 2,
+      "K": 2
+    },
+    "touching_pairs_one_based": [],
+    "star_count": 22
+  },
+  "figures": {
+    "region_map": "recovered_regions.svg",
+    "glyph_masks": "region_masks.svg",
+    "star_solution": "star_board.svg"
+  }
+}

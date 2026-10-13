@@ -1,0 +1,2731 @@
+{
+ "a2111oi": {
+  "name": "sky130_fd_sc_hd__a2111oi",
+  "ports": [
+   "Y",
+   "A1",
+   "A2",
+   "B1",
+   "C1",
+   "D1"
+  ],
+  "inputs": [
+   "A1",
+   "A2",
+   "B1",
+   "C1",
+   "D1"
+  ],
+  "outputs": [
+   "Y"
+  ],
+  "gates": [
+   [
+    "and",
+    [
+     "and0_out",
+     "A1",
+     "A2"
+    ]
+   ],
+   [
+    "nor",
+    [
+     "nor0_out_Y",
+     "B1",
+     "C1",
+     "D1",
+     "and0_out"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "Y",
+     "nor0_out_Y"
+    ]
+   ]
+  ]
+ },
+ "a211o": {
+  "name": "sky130_fd_sc_hd__a211o",
+  "ports": [
+   "X",
+   "A1",
+   "A2",
+   "B1",
+   "C1"
+  ],
+  "inputs": [
+   "A1",
+   "A2",
+   "B1",
+   "C1"
+  ],
+  "outputs": [
+   "X"
+  ],
+  "gates": [
+   [
+    "and",
+    [
+     "and0_out",
+     "A1",
+     "A2"
+    ]
+   ],
+   [
+    "or",
+    [
+     "or0_out_X",
+     "and0_out",
+     "C1",
+     "B1"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "X",
+     "or0_out_X"
+    ]
+   ]
+  ]
+ },
+ "a211oi": {
+  "name": "sky130_fd_sc_hd__a211oi",
+  "ports": [
+   "Y",
+   "A1",
+   "A2",
+   "B1",
+   "C1"
+  ],
+  "inputs": [
+   "A1",
+   "A2",
+   "B1",
+   "C1"
+  ],
+  "outputs": [
+   "Y"
+  ],
+  "gates": [
+   [
+    "and",
+    [
+     "and0_out",
+     "A1",
+     "A2"
+    ]
+   ],
+   [
+    "nor",
+    [
+     "nor0_out_Y",
+     "and0_out",
+     "B1",
+     "C1"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "Y",
+     "nor0_out_Y"
+    ]
+   ]
+  ]
+ },
+ "a21bo": {
+  "name": "sky130_fd_sc_hd__a21bo",
+  "ports": [
+   "X",
+   "A1",
+   "A2",
+   "B1_N"
+  ],
+  "inputs": [
+   "A1",
+   "A2",
+   "B1_N"
+  ],
+  "outputs": [
+   "X"
+  ],
+  "gates": [
+   [
+    "nand",
+    [
+     "nand0_out",
+     "A2",
+     "A1"
+    ]
+   ],
+   [
+    "nand",
+    [
+     "nand1_out_X",
+     "B1_N",
+     "nand0_out"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "X",
+     "nand1_out_X"
+    ]
+   ]
+  ]
+ },
+ "a21boi": {
+  "name": "sky130_fd_sc_hd__a21boi",
+  "ports": [
+   "Y",
+   "A1",
+   "A2",
+   "B1_N"
+  ],
+  "inputs": [
+   "A1",
+   "A2",
+   "B1_N"
+  ],
+  "outputs": [
+   "Y"
+  ],
+  "gates": [
+   [
+    "not",
+    [
+     "b",
+     "B1_N"
+    ]
+   ],
+   [
+    "and",
+    [
+     "and0_out",
+     "A1",
+     "A2"
+    ]
+   ],
+   [
+    "nor",
+    [
+     "nor0_out_Y",
+     "b",
+     "and0_out"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "Y",
+     "nor0_out_Y"
+    ]
+   ]
+  ]
+ },
+ "a21o": {
+  "name": "sky130_fd_sc_hd__a21o",
+  "ports": [
+   "X",
+   "A1",
+   "A2",
+   "B1"
+  ],
+  "inputs": [
+   "A1",
+   "A2",
+   "B1"
+  ],
+  "outputs": [
+   "X"
+  ],
+  "gates": [
+   [
+    "and",
+    [
+     "and0_out",
+     "A1",
+     "A2"
+    ]
+   ],
+   [
+    "or",
+    [
+     "or0_out_X",
+     "and0_out",
+     "B1"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "X",
+     "or0_out_X"
+    ]
+   ]
+  ]
+ },
+ "a21oi": {
+  "name": "sky130_fd_sc_hd__a21oi",
+  "ports": [
+   "Y",
+   "A1",
+   "A2",
+   "B1"
+  ],
+  "inputs": [
+   "A1",
+   "A2",
+   "B1"
+  ],
+  "outputs": [
+   "Y"
+  ],
+  "gates": [
+   [
+    "and",
+    [
+     "and0_out",
+     "A1",
+     "A2"
+    ]
+   ],
+   [
+    "nor",
+    [
+     "nor0_out_Y",
+     "B1",
+     "and0_out"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "Y",
+     "nor0_out_Y"
+    ]
+   ]
+  ]
+ },
+ "a221o": {
+  "name": "sky130_fd_sc_hd__a221o",
+  "ports": [
+   "X",
+   "A1",
+   "A2",
+   "B1",
+   "B2",
+   "C1"
+  ],
+  "inputs": [
+   "A1",
+   "A2",
+   "B1",
+   "B2",
+   "C1"
+  ],
+  "outputs": [
+   "X"
+  ],
+  "gates": [
+   [
+    "and",
+    [
+     "and0_out",
+     "B1",
+     "B2"
+    ]
+   ],
+   [
+    "and",
+    [
+     "and1_out",
+     "A1",
+     "A2"
+    ]
+   ],
+   [
+    "or",
+    [
+     "or0_out_X",
+     "and1_out",
+     "and0_out",
+     "C1"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "X",
+     "or0_out_X"
+    ]
+   ]
+  ]
+ },
+ "a221oi": {
+  "name": "sky130_fd_sc_hd__a221oi",
+  "ports": [
+   "Y",
+   "A1",
+   "A2",
+   "B1",
+   "B2",
+   "C1"
+  ],
+  "inputs": [
+   "A1",
+   "A2",
+   "B1",
+   "B2",
+   "C1"
+  ],
+  "outputs": [
+   "Y"
+  ],
+  "gates": [
+   [
+    "and",
+    [
+     "and0_out",
+     "B1",
+     "B2"
+    ]
+   ],
+   [
+    "and",
+    [
+     "and1_out",
+     "A1",
+     "A2"
+    ]
+   ],
+   [
+    "nor",
+    [
+     "nor0_out_Y",
+     "and0_out",
+     "C1",
+     "and1_out"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "Y",
+     "nor0_out_Y"
+    ]
+   ]
+  ]
+ },
+ "a22o": {
+  "name": "sky130_fd_sc_hd__a22o",
+  "ports": [
+   "X",
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "inputs": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "outputs": [
+   "X"
+  ],
+  "gates": [
+   [
+    "and",
+    [
+     "and0_out",
+     "B1",
+     "B2"
+    ]
+   ],
+   [
+    "and",
+    [
+     "and1_out",
+     "A1",
+     "A2"
+    ]
+   ],
+   [
+    "or",
+    [
+     "or0_out_X",
+     "and1_out",
+     "and0_out"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "X",
+     "or0_out_X"
+    ]
+   ]
+  ]
+ },
+ "a22oi": {
+  "name": "sky130_fd_sc_hd__a22oi",
+  "ports": [
+   "Y",
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "inputs": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "outputs": [
+   "Y"
+  ],
+  "gates": [
+   [
+    "nand",
+    [
+     "nand0_out",
+     "A2",
+     "A1"
+    ]
+   ],
+   [
+    "nand",
+    [
+     "nand1_out",
+     "B2",
+     "B1"
+    ]
+   ],
+   [
+    "and",
+    [
+     "and0_out_Y",
+     "nand0_out",
+     "nand1_out"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "Y",
+     "and0_out_Y"
+    ]
+   ]
+  ]
+ },
+ "a311o": {
+  "name": "sky130_fd_sc_hd__a311o",
+  "ports": [
+   "X",
+   "A1",
+   "A2",
+   "A3",
+   "B1",
+   "C1"
+  ],
+  "inputs": [
+   "A1",
+   "A2",
+   "A3",
+   "B1",
+   "C1"
+  ],
+  "outputs": [
+   "X"
+  ],
+  "gates": [
+   [
+    "and",
+    [
+     "and0_out",
+     "A3",
+     "A1",
+     "A2"
+    ]
+   ],
+   [
+    "or",
+    [
+     "or0_out_X",
+     "and0_out",
+     "C1",
+     "B1"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "X",
+     "or0_out_X"
+    ]
+   ]
+  ]
+ },
+ "a31o": {
+  "name": "sky130_fd_sc_hd__a31o",
+  "ports": [
+   "X",
+   "A1",
+   "A2",
+   "A3",
+   "B1"
+  ],
+  "inputs": [
+   "A1",
+   "A2",
+   "A3",
+   "B1"
+  ],
+  "outputs": [
+   "X"
+  ],
+  "gates": [
+   [
+    "and",
+    [
+     "and0_out",
+     "A3",
+     "A1",
+     "A2"
+    ]
+   ],
+   [
+    "or",
+    [
+     "or0_out_X",
+     "and0_out",
+     "B1"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "X",
+     "or0_out_X"
+    ]
+   ]
+  ]
+ },
+ "a31oi": {
+  "name": "sky130_fd_sc_hd__a31oi",
+  "ports": [
+   "Y",
+   "A1",
+   "A2",
+   "A3",
+   "B1"
+  ],
+  "inputs": [
+   "A1",
+   "A2",
+   "A3",
+   "B1"
+  ],
+  "outputs": [
+   "Y"
+  ],
+  "gates": [
+   [
+    "and",
+    [
+     "and0_out",
+     "A3",
+     "A1",
+     "A2"
+    ]
+   ],
+   [
+    "nor",
+    [
+     "nor0_out_Y",
+     "B1",
+     "and0_out"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "Y",
+     "nor0_out_Y"
+    ]
+   ]
+  ]
+ },
+ "a32o": {
+  "name": "sky130_fd_sc_hd__a32o",
+  "ports": [
+   "X",
+   "A1",
+   "A2",
+   "A3",
+   "B1",
+   "B2"
+  ],
+  "inputs": [
+   "A1",
+   "A2",
+   "A3",
+   "B1",
+   "B2"
+  ],
+  "outputs": [
+   "X"
+  ],
+  "gates": [
+   [
+    "and",
+    [
+     "and0_out",
+     "A3",
+     "A1",
+     "A2"
+    ]
+   ],
+   [
+    "and",
+    [
+     "and1_out",
+     "B1",
+     "B2"
+    ]
+   ],
+   [
+    "or",
+    [
+     "or0_out_X",
+     "and1_out",
+     "and0_out"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "X",
+     "or0_out_X"
+    ]
+   ]
+  ]
+ },
+ "a41oi": {
+  "name": "sky130_fd_sc_hd__a41oi",
+  "ports": [
+   "Y",
+   "A1",
+   "A2",
+   "A3",
+   "A4",
+   "B1"
+  ],
+  "inputs": [
+   "A1",
+   "A2",
+   "A3",
+   "A4",
+   "B1"
+  ],
+  "outputs": [
+   "Y"
+  ],
+  "gates": [
+   [
+    "and",
+    [
+     "and0_out",
+     "A1",
+     "A2",
+     "A3",
+     "A4"
+    ]
+   ],
+   [
+    "nor",
+    [
+     "nor0_out_Y",
+     "B1",
+     "and0_out"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "Y",
+     "nor0_out_Y"
+    ]
+   ]
+  ]
+ },
+ "and2": {
+  "name": "sky130_fd_sc_hd__and2",
+  "ports": [
+   "X",
+   "A",
+   "B"
+  ],
+  "inputs": [
+   "A",
+   "B"
+  ],
+  "outputs": [
+   "X"
+  ],
+  "gates": [
+   [
+    "and",
+    [
+     "and0_out_X",
+     "A",
+     "B"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "X",
+     "and0_out_X"
+    ]
+   ]
+  ]
+ },
+ "and2b": {
+  "name": "sky130_fd_sc_hd__and2b",
+  "ports": [
+   "X",
+   "A_N",
+   "B"
+  ],
+  "inputs": [
+   "A_N",
+   "B"
+  ],
+  "outputs": [
+   "X"
+  ],
+  "gates": [
+   [
+    "not",
+    [
+     "not0_out",
+     "A_N"
+    ]
+   ],
+   [
+    "and",
+    [
+     "and0_out_X",
+     "not0_out",
+     "B"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "X",
+     "and0_out_X"
+    ]
+   ]
+  ]
+ },
+ "and3": {
+  "name": "sky130_fd_sc_hd__and3",
+  "ports": [
+   "X",
+   "A",
+   "B",
+   "C"
+  ],
+  "inputs": [
+   "A",
+   "B",
+   "C"
+  ],
+  "outputs": [
+   "X"
+  ],
+  "gates": [
+   [
+    "and",
+    [
+     "and0_out_X",
+     "C",
+     "A",
+     "B"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "X",
+     "and0_out_X"
+    ]
+   ]
+  ]
+ },
+ "and3b": {
+  "name": "sky130_fd_sc_hd__and3b",
+  "ports": [
+   "X",
+   "A_N",
+   "B",
+   "C"
+  ],
+  "inputs": [
+   "A_N",
+   "B",
+   "C"
+  ],
+  "outputs": [
+   "X"
+  ],
+  "gates": [
+   [
+    "not",
+    [
+     "not0_out",
+     "A_N"
+    ]
+   ],
+   [
+    "and",
+    [
+     "and0_out_X",
+     "C",
+     "not0_out",
+     "B"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "X",
+     "and0_out_X"
+    ]
+   ]
+  ]
+ },
+ "and4": {
+  "name": "sky130_fd_sc_hd__and4",
+  "ports": [
+   "X",
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "inputs": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "outputs": [
+   "X"
+  ],
+  "gates": [
+   [
+    "and",
+    [
+     "and0_out_X",
+     "A",
+     "B",
+     "C",
+     "D"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "X",
+     "and0_out_X"
+    ]
+   ]
+  ]
+ },
+ "and4b": {
+  "name": "sky130_fd_sc_hd__and4b",
+  "ports": [
+   "X",
+   "A_N",
+   "B",
+   "C",
+   "D"
+  ],
+  "inputs": [
+   "A_N",
+   "B",
+   "C",
+   "D"
+  ],
+  "outputs": [
+   "X"
+  ],
+  "gates": [
+   [
+    "not",
+    [
+     "not0_out",
+     "A_N"
+    ]
+   ],
+   [
+    "and",
+    [
+     "and0_out_X",
+     "not0_out",
+     "B",
+     "C",
+     "D"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "X",
+     "and0_out_X"
+    ]
+   ]
+  ]
+ },
+ "and4bb": {
+  "name": "sky130_fd_sc_hd__and4bb",
+  "ports": [
+   "X",
+   "A_N",
+   "B_N",
+   "C",
+   "D"
+  ],
+  "inputs": [
+   "A_N",
+   "B_N",
+   "C",
+   "D"
+  ],
+  "outputs": [
+   "X"
+  ],
+  "gates": [
+   [
+    "nor",
+    [
+     "nor0_out",
+     "A_N",
+     "B_N"
+    ]
+   ],
+   [
+    "and",
+    [
+     "and0_out_X",
+     "nor0_out",
+     "C",
+     "D"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "X",
+     "and0_out_X"
+    ]
+   ]
+  ]
+ },
+ "buf": {
+  "name": "sky130_fd_sc_hd__buf",
+  "ports": [
+   "X",
+   "A"
+  ],
+  "inputs": [
+   "A"
+  ],
+  "outputs": [
+   "X"
+  ],
+  "gates": [
+   [
+    "buf",
+    [
+     "buf0_out_X",
+     "A"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "X",
+     "buf0_out_X"
+    ]
+   ]
+  ]
+ },
+ "clkbuf": {
+  "name": "sky130_fd_sc_hd__clkbuf",
+  "ports": [
+   "X",
+   "A"
+  ],
+  "inputs": [
+   "A"
+  ],
+  "outputs": [
+   "X"
+  ],
+  "gates": [
+   [
+    "buf",
+    [
+     "buf0_out_X",
+     "A"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "X",
+     "buf0_out_X"
+    ]
+   ]
+  ]
+ },
+ "conb": {
+  "name": "sky130_fd_sc_hd__conb",
+  "ports": [
+   "HI",
+   "LO"
+  ],
+  "inputs": [],
+  "outputs": [
+   "HI",
+   "LO"
+  ],
+  "gates": [
+   [
+    "pullup",
+    [
+     "HI"
+    ]
+   ],
+   [
+    "pulldown",
+    [
+     "LO"
+    ]
+   ]
+  ]
+ },
+ "decap": {
+  "name": "sky130_fd_sc_hd__decap",
+  "ports": [],
+  "inputs": [],
+  "outputs": [],
+  "gates": []
+ },
+ "dfrtp": {
+  "name": "sky130_fd_sc_hd__dfrtp",
+  "ports": [
+   "Q",
+   "CLK",
+   "D",
+   "RESET_B"
+  ],
+  "inputs": [
+   "CLK",
+   "D",
+   "RESET_B"
+  ],
+  "outputs": [
+   "Q"
+  ],
+  "gates": [
+   [
+    "not",
+    [
+     "RESET",
+     "RESET_B"
+    ]
+   ],
+   [
+    "dffPR",
+    [
+     "buf_Q",
+     "D",
+     "CLK",
+     "RESET"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "Q",
+     "buf_Q"
+    ]
+   ]
+  ]
+ },
+ "dfstp": {
+  "name": "sky130_fd_sc_hd__dfstp",
+  "ports": [
+   "Q",
+   "CLK",
+   "D",
+   "SET_B"
+  ],
+  "inputs": [
+   "CLK",
+   "D",
+   "SET_B"
+  ],
+  "outputs": [
+   "Q"
+  ],
+  "gates": [
+   [
+    "not",
+    [
+     "SET",
+     "SET_B"
+    ]
+   ],
+   [
+    "dffPS",
+    [
+     "buf_Q",
+     "D",
+     "CLK",
+     "SET"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "Q",
+     "buf_Q"
+    ]
+   ]
+  ]
+ },
+ "dfxtp": {
+  "name": "sky130_fd_sc_hd__dfxtp",
+  "ports": [
+   "Q",
+   "CLK",
+   "D"
+  ],
+  "inputs": [
+   "CLK",
+   "D"
+  ],
+  "outputs": [
+   "Q"
+  ],
+  "gates": [
+   [
+    "dffP",
+    [
+     "buf_Q",
+     "D",
+     "CLK"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "Q",
+     "buf_Q"
+    ]
+   ]
+  ]
+ },
+ "diode": {
+  "name": "sky130_fd_sc_hd__diode",
+  "ports": [
+   "DIODE"
+  ],
+  "inputs": [
+   "DIODE"
+  ],
+  "outputs": [],
+  "gates": []
+ },
+ "inv": {
+  "name": "sky130_fd_sc_hd__inv",
+  "ports": [
+   "Y",
+   "A"
+  ],
+  "inputs": [
+   "A"
+  ],
+  "outputs": [
+   "Y"
+  ],
+  "gates": [
+   [
+    "not",
+    [
+     "not0_out_Y",
+     "A"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "Y",
+     "not0_out_Y"
+    ]
+   ]
+  ]
+ },
+ "mux2": {
+  "name": "sky130_fd_sc_hd__mux2",
+  "ports": [
+   "X",
+   "A0",
+   "A1",
+   "S"
+  ],
+  "inputs": [
+   "A0",
+   "A1",
+   "S"
+  ],
+  "outputs": [
+   "X"
+  ],
+  "gates": [
+   [
+    "mux2",
+    [
+     "mux_2to10_out_X",
+     "A0",
+     "A1",
+     "S"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "X",
+     "mux_2to10_out_X"
+    ]
+   ]
+  ]
+ },
+ "nand2": {
+  "name": "sky130_fd_sc_hd__nand2",
+  "ports": [
+   "Y",
+   "A",
+   "B"
+  ],
+  "inputs": [
+   "A",
+   "B"
+  ],
+  "outputs": [
+   "Y"
+  ],
+  "gates": [
+   [
+    "nand",
+    [
+     "nand0_out_Y",
+     "B",
+     "A"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "Y",
+     "nand0_out_Y"
+    ]
+   ]
+  ]
+ },
+ "nand2b": {
+  "name": "sky130_fd_sc_hd__nand2b",
+  "ports": [
+   "Y",
+   "A_N",
+   "B"
+  ],
+  "inputs": [
+   "A_N",
+   "B"
+  ],
+  "outputs": [
+   "Y"
+  ],
+  "gates": [
+   [
+    "not",
+    [
+     "not0_out",
+     "B"
+    ]
+   ],
+   [
+    "or",
+    [
+     "or0_out_Y",
+     "not0_out",
+     "A_N"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "Y",
+     "or0_out_Y"
+    ]
+   ]
+  ]
+ },
+ "nand3": {
+  "name": "sky130_fd_sc_hd__nand3",
+  "ports": [
+   "Y",
+   "A",
+   "B",
+   "C"
+  ],
+  "inputs": [
+   "A",
+   "B",
+   "C"
+  ],
+  "outputs": [
+   "Y"
+  ],
+  "gates": [
+   [
+    "nand",
+    [
+     "nand0_out_Y",
+     "B",
+     "A",
+     "C"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "Y",
+     "nand0_out_Y"
+    ]
+   ]
+  ]
+ },
+ "nand3b": {
+  "name": "sky130_fd_sc_hd__nand3b",
+  "ports": [
+   "Y",
+   "A_N",
+   "B",
+   "C"
+  ],
+  "inputs": [
+   "A_N",
+   "B",
+   "C"
+  ],
+  "outputs": [
+   "Y"
+  ],
+  "gates": [
+   [
+    "not",
+    [
+     "not0_out",
+     "A_N"
+    ]
+   ],
+   [
+    "nand",
+    [
+     "nand0_out_Y",
+     "B",
+     "not0_out",
+     "C"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "Y",
+     "nand0_out_Y"
+    ]
+   ]
+  ]
+ },
+ "nand4": {
+  "name": "sky130_fd_sc_hd__nand4",
+  "ports": [
+   "Y",
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "inputs": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "outputs": [
+   "Y"
+  ],
+  "gates": [
+   [
+    "nand",
+    [
+     "nand0_out_Y",
+     "D",
+     "C",
+     "B",
+     "A"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "Y",
+     "nand0_out_Y"
+    ]
+   ]
+  ]
+ },
+ "nor2": {
+  "name": "sky130_fd_sc_hd__nor2",
+  "ports": [
+   "Y",
+   "A",
+   "B"
+  ],
+  "inputs": [
+   "A",
+   "B"
+  ],
+  "outputs": [
+   "Y"
+  ],
+  "gates": [
+   [
+    "nor",
+    [
+     "nor0_out_Y",
+     "A",
+     "B"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "Y",
+     "nor0_out_Y"
+    ]
+   ]
+  ]
+ },
+ "nor3": {
+  "name": "sky130_fd_sc_hd__nor3",
+  "ports": [
+   "Y",
+   "A",
+   "B",
+   "C"
+  ],
+  "inputs": [
+   "A",
+   "B",
+   "C"
+  ],
+  "outputs": [
+   "Y"
+  ],
+  "gates": [
+   [
+    "nor",
+    [
+     "nor0_out_Y",
+     "C",
+     "A",
+     "B"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "Y",
+     "nor0_out_Y"
+    ]
+   ]
+  ]
+ },
+ "nor3b": {
+  "name": "sky130_fd_sc_hd__nor3b",
+  "ports": [
+   "Y",
+   "A",
+   "B",
+   "C_N"
+  ],
+  "inputs": [
+   "A",
+   "B",
+   "C_N"
+  ],
+  "outputs": [
+   "Y"
+  ],
+  "gates": [
+   [
+    "nor",
+    [
+     "nor0_out",
+     "A",
+     "B"
+    ]
+   ],
+   [
+    "and",
+    [
+     "and0_out_Y",
+     "C_N",
+     "nor0_out"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "Y",
+     "and0_out_Y"
+    ]
+   ]
+  ]
+ },
+ "nor4": {
+  "name": "sky130_fd_sc_hd__nor4",
+  "ports": [
+   "Y",
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "inputs": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "outputs": [
+   "Y"
+  ],
+  "gates": [
+   [
+    "nor",
+    [
+     "nor0_out_Y",
+     "A",
+     "B",
+     "C",
+     "D"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "Y",
+     "nor0_out_Y"
+    ]
+   ]
+  ]
+ },
+ "nor4b": {
+  "name": "sky130_fd_sc_hd__nor4b",
+  "ports": [
+   "Y",
+   "A",
+   "B",
+   "C",
+   "D_N"
+  ],
+  "inputs": [
+   "A",
+   "B",
+   "C",
+   "D_N"
+  ],
+  "outputs": [
+   "Y"
+  ],
+  "gates": [
+   [
+    "not",
+    [
+     "not0_out",
+     "D_N"
+    ]
+   ],
+   [
+    "nor",
+    [
+     "nor0_out_Y",
+     "A",
+     "B",
+     "C",
+     "not0_out"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "Y",
+     "nor0_out_Y"
+    ]
+   ]
+  ]
+ },
+ "o211a": {
+  "name": "sky130_fd_sc_hd__o211a",
+  "ports": [
+   "X",
+   "A1",
+   "A2",
+   "B1",
+   "C1"
+  ],
+  "inputs": [
+   "A1",
+   "A2",
+   "B1",
+   "C1"
+  ],
+  "outputs": [
+   "X"
+  ],
+  "gates": [
+   [
+    "or",
+    [
+     "or0_out",
+     "A2",
+     "A1"
+    ]
+   ],
+   [
+    "and",
+    [
+     "and0_out_X",
+     "or0_out",
+     "B1",
+     "C1"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "X",
+     "and0_out_X"
+    ]
+   ]
+  ]
+ },
+ "o211ai": {
+  "name": "sky130_fd_sc_hd__o211ai",
+  "ports": [
+   "Y",
+   "A1",
+   "A2",
+   "B1",
+   "C1"
+  ],
+  "inputs": [
+   "A1",
+   "A2",
+   "B1",
+   "C1"
+  ],
+  "outputs": [
+   "Y"
+  ],
+  "gates": [
+   [
+    "or",
+    [
+     "or0_out",
+     "A2",
+     "A1"
+    ]
+   ],
+   [
+    "nand",
+    [
+     "nand0_out_Y",
+     "C1",
+     "or0_out",
+     "B1"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "Y",
+     "nand0_out_Y"
+    ]
+   ]
+  ]
+ },
+ "o21a": {
+  "name": "sky130_fd_sc_hd__o21a",
+  "ports": [
+   "X",
+   "A1",
+   "A2",
+   "B1"
+  ],
+  "inputs": [
+   "A1",
+   "A2",
+   "B1"
+  ],
+  "outputs": [
+   "X"
+  ],
+  "gates": [
+   [
+    "or",
+    [
+     "or0_out",
+     "A2",
+     "A1"
+    ]
+   ],
+   [
+    "and",
+    [
+     "and0_out_X",
+     "or0_out",
+     "B1"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "X",
+     "and0_out_X"
+    ]
+   ]
+  ]
+ },
+ "o21ai": {
+  "name": "sky130_fd_sc_hd__o21ai",
+  "ports": [
+   "Y",
+   "A1",
+   "A2",
+   "B1"
+  ],
+  "inputs": [
+   "A1",
+   "A2",
+   "B1"
+  ],
+  "outputs": [
+   "Y"
+  ],
+  "gates": [
+   [
+    "or",
+    [
+     "or0_out",
+     "A2",
+     "A1"
+    ]
+   ],
+   [
+    "nand",
+    [
+     "nand0_out_Y",
+     "B1",
+     "or0_out"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "Y",
+     "nand0_out_Y"
+    ]
+   ]
+  ]
+ },
+ "o21ba": {
+  "name": "sky130_fd_sc_hd__o21ba",
+  "ports": [
+   "X",
+   "A1",
+   "A2",
+   "B1_N"
+  ],
+  "inputs": [
+   "A1",
+   "A2",
+   "B1_N"
+  ],
+  "outputs": [
+   "X"
+  ],
+  "gates": [
+   [
+    "nor",
+    [
+     "nor0_out",
+     "A1",
+     "A2"
+    ]
+   ],
+   [
+    "nor",
+    [
+     "nor1_out_X",
+     "B1_N",
+     "nor0_out"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "X",
+     "nor1_out_X"
+    ]
+   ]
+  ]
+ },
+ "o21bai": {
+  "name": "sky130_fd_sc_hd__o21bai",
+  "ports": [
+   "Y",
+   "A1",
+   "A2",
+   "B1_N"
+  ],
+  "inputs": [
+   "A1",
+   "A2",
+   "B1_N"
+  ],
+  "outputs": [
+   "Y"
+  ],
+  "gates": [
+   [
+    "not",
+    [
+     "b",
+     "B1_N"
+    ]
+   ],
+   [
+    "or",
+    [
+     "or0_out",
+     "A2",
+     "A1"
+    ]
+   ],
+   [
+    "nand",
+    [
+     "nand0_out_Y",
+     "b",
+     "or0_out"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "Y",
+     "nand0_out_Y"
+    ]
+   ]
+  ]
+ },
+ "o221a": {
+  "name": "sky130_fd_sc_hd__o221a",
+  "ports": [
+   "X",
+   "A1",
+   "A2",
+   "B1",
+   "B2",
+   "C1"
+  ],
+  "inputs": [
+   "A1",
+   "A2",
+   "B1",
+   "B2",
+   "C1"
+  ],
+  "outputs": [
+   "X"
+  ],
+  "gates": [
+   [
+    "or",
+    [
+     "or0_out",
+     "B2",
+     "B1"
+    ]
+   ],
+   [
+    "or",
+    [
+     "or1_out",
+     "A2",
+     "A1"
+    ]
+   ],
+   [
+    "and",
+    [
+     "and0_out_X",
+     "or0_out",
+     "or1_out",
+     "C1"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "X",
+     "and0_out_X"
+    ]
+   ]
+  ]
+ },
+ "o22a": {
+  "name": "sky130_fd_sc_hd__o22a",
+  "ports": [
+   "X",
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "inputs": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "outputs": [
+   "X"
+  ],
+  "gates": [
+   [
+    "or",
+    [
+     "or0_out",
+     "A2",
+     "A1"
+    ]
+   ],
+   [
+    "or",
+    [
+     "or1_out",
+     "B2",
+     "B1"
+    ]
+   ],
+   [
+    "and",
+    [
+     "and0_out_X",
+     "or0_out",
+     "or1_out"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "X",
+     "and0_out_X"
+    ]
+   ]
+  ]
+ },
+ "o22ai": {
+  "name": "sky130_fd_sc_hd__o22ai",
+  "ports": [
+   "Y",
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "inputs": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "outputs": [
+   "Y"
+  ],
+  "gates": [
+   [
+    "nor",
+    [
+     "nor0_out",
+     "B1",
+     "B2"
+    ]
+   ],
+   [
+    "nor",
+    [
+     "nor1_out",
+     "A1",
+     "A2"
+    ]
+   ],
+   [
+    "or",
+    [
+     "or0_out_Y",
+     "nor1_out",
+     "nor0_out"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "Y",
+     "or0_out_Y"
+    ]
+   ]
+  ]
+ },
+ "o2bb2a": {
+  "name": "sky130_fd_sc_hd__o2bb2a",
+  "ports": [
+   "X",
+   "A1_N",
+   "A2_N",
+   "B1",
+   "B2"
+  ],
+  "inputs": [
+   "A1_N",
+   "A2_N",
+   "B1",
+   "B2"
+  ],
+  "outputs": [
+   "X"
+  ],
+  "gates": [
+   [
+    "nand",
+    [
+     "nand0_out",
+     "A2_N",
+     "A1_N"
+    ]
+   ],
+   [
+    "or",
+    [
+     "or0_out",
+     "B2",
+     "B1"
+    ]
+   ],
+   [
+    "and",
+    [
+     "and0_out_X",
+     "nand0_out",
+     "or0_out"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "X",
+     "and0_out_X"
+    ]
+   ]
+  ]
+ },
+ "o311a": {
+  "name": "sky130_fd_sc_hd__o311a",
+  "ports": [
+   "X",
+   "A1",
+   "A2",
+   "A3",
+   "B1",
+   "C1"
+  ],
+  "inputs": [
+   "A1",
+   "A2",
+   "A3",
+   "B1",
+   "C1"
+  ],
+  "outputs": [
+   "X"
+  ],
+  "gates": [
+   [
+    "or",
+    [
+     "or0_out",
+     "A2",
+     "A1",
+     "A3"
+    ]
+   ],
+   [
+    "and",
+    [
+     "and0_out_X",
+     "or0_out",
+     "B1",
+     "C1"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "X",
+     "and0_out_X"
+    ]
+   ]
+  ]
+ },
+ "o31a": {
+  "name": "sky130_fd_sc_hd__o31a",
+  "ports": [
+   "X",
+   "A1",
+   "A2",
+   "A3",
+   "B1"
+  ],
+  "inputs": [
+   "A1",
+   "A2",
+   "A3",
+   "B1"
+  ],
+  "outputs": [
+   "X"
+  ],
+  "gates": [
+   [
+    "or",
+    [
+     "or0_out",
+     "A2",
+     "A1",
+     "A3"
+    ]
+   ],
+   [
+    "and",
+    [
+     "and0_out_X",
+     "or0_out",
+     "B1"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "X",
+     "and0_out_X"
+    ]
+   ]
+  ]
+ },
+ "o31ai": {
+  "name": "sky130_fd_sc_hd__o31ai",
+  "ports": [
+   "Y",
+   "A1",
+   "A2",
+   "A3",
+   "B1"
+  ],
+  "inputs": [
+   "A1",
+   "A2",
+   "A3",
+   "B1"
+  ],
+  "outputs": [
+   "Y"
+  ],
+  "gates": [
+   [
+    "or",
+    [
+     "or0_out",
+     "A2",
+     "A1",
+     "A3"
+    ]
+   ],
+   [
+    "nand",
+    [
+     "nand0_out_Y",
+     "B1",
+     "or0_out"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "Y",
+     "nand0_out_Y"
+    ]
+   ]
+  ]
+ },
+ "o32a": {
+  "name": "sky130_fd_sc_hd__o32a",
+  "ports": [
+   "X",
+   "A1",
+   "A2",
+   "A3",
+   "B1",
+   "B2"
+  ],
+  "inputs": [
+   "A1",
+   "A2",
+   "A3",
+   "B1",
+   "B2"
+  ],
+  "outputs": [
+   "X"
+  ],
+  "gates": [
+   [
+    "or",
+    [
+     "or0_out",
+     "A2",
+     "A1",
+     "A3"
+    ]
+   ],
+   [
+    "or",
+    [
+     "or1_out",
+     "B2",
+     "B1"
+    ]
+   ],
+   [
+    "and",
+    [
+     "and0_out_X",
+     "or0_out",
+     "or1_out"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "X",
+     "and0_out_X"
+    ]
+   ]
+  ]
+ },
+ "o32ai": {
+  "name": "sky130_fd_sc_hd__o32ai",
+  "ports": [
+   "Y",
+   "A1",
+   "A2",
+   "A3",
+   "B1",
+   "B2"
+  ],
+  "inputs": [
+   "A1",
+   "A2",
+   "A3",
+   "B1",
+   "B2"
+  ],
+  "outputs": [
+   "Y"
+  ],
+  "gates": [
+   [
+    "nor",
+    [
+     "nor0_out",
+     "A3",
+     "A1",
+     "A2"
+    ]
+   ],
+   [
+    "nor",
+    [
+     "nor1_out",
+     "B1",
+     "B2"
+    ]
+   ],
+   [
+    "or",
+    [
+     "or0_out_Y",
+     "nor1_out",
+     "nor0_out"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "Y",
+     "or0_out_Y"
+    ]
+   ]
+  ]
+ },
+ "or2": {
+  "name": "sky130_fd_sc_hd__or2",
+  "ports": [
+   "X",
+   "A",
+   "B"
+  ],
+  "inputs": [
+   "A",
+   "B"
+  ],
+  "outputs": [
+   "X"
+  ],
+  "gates": [
+   [
+    "or",
+    [
+     "or0_out_X",
+     "B",
+     "A"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "X",
+     "or0_out_X"
+    ]
+   ]
+  ]
+ },
+ "or3": {
+  "name": "sky130_fd_sc_hd__or3",
+  "ports": [
+   "X",
+   "A",
+   "B",
+   "C"
+  ],
+  "inputs": [
+   "A",
+   "B",
+   "C"
+  ],
+  "outputs": [
+   "X"
+  ],
+  "gates": [
+   [
+    "or",
+    [
+     "or0_out_X",
+     "B",
+     "A",
+     "C"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "X",
+     "or0_out_X"
+    ]
+   ]
+  ]
+ },
+ "or3b": {
+  "name": "sky130_fd_sc_hd__or3b",
+  "ports": [
+   "X",
+   "A",
+   "B",
+   "C_N"
+  ],
+  "inputs": [
+   "A",
+   "B",
+   "C_N"
+  ],
+  "outputs": [
+   "X"
+  ],
+  "gates": [
+   [
+    "not",
+    [
+     "not0_out",
+     "C_N"
+    ]
+   ],
+   [
+    "or",
+    [
+     "or0_out_X",
+     "B",
+     "A",
+     "not0_out"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "X",
+     "or0_out_X"
+    ]
+   ]
+  ]
+ },
+ "or4": {
+  "name": "sky130_fd_sc_hd__or4",
+  "ports": [
+   "X",
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "inputs": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "outputs": [
+   "X"
+  ],
+  "gates": [
+   [
+    "or",
+    [
+     "or0_out_X",
+     "D",
+     "C",
+     "B",
+     "A"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "X",
+     "or0_out_X"
+    ]
+   ]
+  ]
+ },
+ "or4b": {
+  "name": "sky130_fd_sc_hd__or4b",
+  "ports": [
+   "X",
+   "A",
+   "B",
+   "C",
+   "D_N"
+  ],
+  "inputs": [
+   "A",
+   "B",
+   "C",
+   "D_N"
+  ],
+  "outputs": [
+   "X"
+  ],
+  "gates": [
+   [
+    "not",
+    [
+     "not0_out",
+     "D_N"
+    ]
+   ],
+   [
+    "or",
+    [
+     "or0_out_X",
+     "not0_out",
+     "C",
+     "B",
+     "A"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "X",
+     "or0_out_X"
+    ]
+   ]
+  ]
+ },
+ "or4bb": {
+  "name": "sky130_fd_sc_hd__or4bb",
+  "ports": [
+   "X",
+   "A",
+   "B",
+   "C_N",
+   "D_N"
+  ],
+  "inputs": [
+   "A",
+   "B",
+   "C_N",
+   "D_N"
+  ],
+  "outputs": [
+   "X"
+  ],
+  "gates": [
+   [
+    "nand",
+    [
+     "nand0_out",
+     "D_N",
+     "C_N"
+    ]
+   ],
+   [
+    "or",
+    [
+     "or0_out_X",
+     "B",
+     "A",
+     "nand0_out"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "X",
+     "or0_out_X"
+    ]
+   ]
+  ]
+ },
+ "xnor2": {
+  "name": "sky130_fd_sc_hd__xnor2",
+  "ports": [
+   "Y",
+   "A",
+   "B"
+  ],
+  "inputs": [
+   "A",
+   "B"
+  ],
+  "outputs": [
+   "Y"
+  ],
+  "gates": [
+   [
+    "xnor",
+    [
+     "xnor0_out_Y",
+     "A",
+     "B"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "Y",
+     "xnor0_out_Y"
+    ]
+   ]
+  ]
+ },
+ "xor2": {
+  "name": "sky130_fd_sc_hd__xor2",
+  "ports": [
+   "X",
+   "A",
+   "B"
+  ],
+  "inputs": [
+   "A",
+   "B"
+  ],
+  "outputs": [
+   "X"
+  ],
+  "gates": [
+   [
+    "xor",
+    [
+     "xor0_out_X",
+     "B",
+     "A"
+    ]
+   ],
+   [
+    "buf",
+    [
+     "X",
+     "xor0_out_X"
+    ]
+   ]
+  ]
+ }
+}

@@ -1,0 +1,350 @@
+{
+  "answer": "(* TWO STARS *)",
+  "input_bits": "0000000101010000100000000000010101010000000000001010000001000001000000100000101000010000000100000010000010010001010000000",
+  "grid": [
+    "00000001010",
+    "10000100000",
+    "00000001010",
+    "10100000000",
+    "00001010000",
+    "00100000100",
+    "00001000001",
+    "01000010000",
+    "00010000001",
+    "00000100100",
+    "01010000000"
+  ],
+  "region_map": [
+    "GGGGGCCDEEB",
+    "GGIGGCDDEEB",
+    "GGICCCCDDEB",
+    "GGICHHHBDDB",
+    "IGICHBBBBBB",
+    "IIICHHHBKKK",
+    "CCCCCCHBKAA",
+    "CFFFHHHBKAA",
+    "CFFJBBBBKAA",
+    "CCFJJBBBKKK",
+    "CFFJBBBBBBB"
+  ],
+  "source_sha256": "8913ea4be5367b484d5886c3c5f7608942b67544a0dbe364b17223503b8d851a",
+  "netlist_counts": {
+    "standard_cell_records": 942,
+    "primitive_gates": 1794,
+    "flip_flops": 92
+  },
+  "warmup": {
+    "tests": 319,
+    "all_passed": true
+  },
+  "sample_vcd": {
+    "rising_edges": 312,
+    "output_bit_checks": 2496,
+    "success_bit_checks": 312,
+    "mismatch_count": 0
+  },
+  "board_checks": {
+    "row_counts": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "column_counts": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "region_counts": {
+      "A": 2,
+      "B": 2,
+      "C": 2,
+      "D": 2,
+      "E": 2,
+      "F": 2,
+      "G": 2,
+      "H": 2,
+      "I": 2,
+      "J": 2,
+      "K": 2
+    },
+    "touching_pairs": [],
+    "star_count": 22
+  },
+  "unique_solution": true,
+  "solver_stats": {
+    "search_nodes": 1098,
+    "propagation_passes": 1964,
+    "failed_nodes": 889,
+    "row_patterns": 45
+  },
+  "winning": {
+    "success_trace": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "O_bytes": [
+      40,
+      42,
+      32,
+      84,
+      87,
+      79,
+      32,
+      83,
+      84,
+      65,
+      82,
+      83,
+      32,
+      42,
+      41,
+      0
+    ],
+    "text": "(* TWO STARS *)"
+  },
+  "negative_tests": {
+    "empty": {
+      "success_trace": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "O_bytes": [
+        69,
+        77,
+        80,
+        84,
+        89,
+        32,
+        83,
+        75,
+        89,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "text": "EMPTY SKY"
+    },
+    "full": {
+      "success_trace": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "O_bytes": [
+        66,
+        73,
+        71,
+        32,
+        66,
+        65,
+        78,
+        71,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "text": "BIG BANG"
+    },
+    "removed_star": {
+      "success_trace": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "O_bytes": [
+        84,
+        82,
+        89,
+        32,
+        65,
+        71,
+        65,
+        73,
+        78,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "text": "TRY AGAIN"
+    },
+    "count_preserving_adjacency": {
+      "counts": {
+        "row_counts": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "column_counts": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "region_counts": {
+          "A": 2,
+          "B": 2,
+          "C": 2,
+          "D": 2,
+          "E": 2,
+          "F": 2,
+          "G": 2,
+          "H": 2,
+          "I": 2,
+          "J": 2,
+          "K": 2
+        },
+        "touching_pairs": [
+          [
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              7
+            ]
+          ]
+        ],
+        "star_count": 22
+      },
+      "simulation": {
+        "success_trace": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "O_bytes": [
+          84,
+          87,
+          79,
+          34,
+          78,
+          79,
+          84,
+          32,
+          84,
+          79,
+          85,
+          67,
+          72,
+          0,
+          0,
+          0
+        ],
+        "text": "TWO\"NOT TOUCH"
+      }
+    }
+  },
+  "elapsed_seconds": 27.54368760000216
+}
